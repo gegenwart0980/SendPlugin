@@ -1,0 +1,202 @@
+name: CityBuildSystem
+version: 1.3.0
+api: 5.0.0
+author: FantasyGirl1988
+main: FantasyGirl1988\SendPlugin\Main
+
+commands:
+ 
+ restart:
+  description: "Restarte"
+  permission: restart.cmd
+  aliases: ["stop"]
+ admin:
+  description: "Gehe ins Admin menu"
+  permission: admin.cmd
+  aliases: ["ad"]
+ discord: 
+  description: "Zeige den Discord an"
+  permission: discord.cmd
+  aliases: ["dc"]
+ onlinetime:
+  description: "Zeige Onlinetime an"
+  permission: onlinetime.cmd
+  aliases: ["online", "otime"]
+ lobby:
+  description: "Gehe in die Lobby"
+  permission: lobby.cmd
+  aliases: ["l", "hub"]
+ wartung:
+  description: "Setze den Wartungs modus an oder aus"
+  permission: wartung.cmd
+ opplayer: 
+  description: "Gebe jemaden OP"
+  permission: op.cmd
+ witze:
+  description: "Siehe Witze"
+  permission: witze.cmd
+ bewerben:
+  description: "Bewerbe dich!"
+  permission: bewerben.cmd
+ youtube:
+  description: "Gehe in das Youtube Menu!"
+  permission: youtube.cmd
+  aliases: ["yt", "kanal"]
+ id:
+  description: "Zeige die Id von einem Item!"
+  permission: id.cmd
+ pay:
+  description: "Gebe Jemanden Geld!"
+  permission: pay.cmd
+ rangshop:
+  description: "gehe in den Rangshop!"
+  permission: rangshop.cmd
+  aliases: ["rshop", "rankshop"]
+ spectate:
+  description: "Beobachte einen Spieler!"
+  permission: spectate.cmd
+ hilfe:
+  description: "Siehe dir die Hilfe liste an!"
+  permission: hilfe.cmd
+ mute:
+  description: "Mute jemanden"
+  permission: mute.cmd
+ werbung:
+  description: "Mache Werbung"
+  permission: werbung.cmd
+ info:
+  description: "Siehe informietionen"
+  permission: info.cmd
+ changelog:
+  description: "Siehe den Changelog!"
+  permission: changelog.cmd
+ nachricht:
+  description: "Schreibe jeden eine Nachricht"
+  permission: nachricht.cmd
+ teamchat:
+  description: "Schreibe in Teamchat!"
+  permission: teamchat.command
+ serverrestart:
+  description: "Sende dir Restart Nachricht!"
+  permission: restart.cmd
+ ic:
+  description: "Lösche dein Inventar!"
+  permission: clear.cmd
+ supporter:
+  description: "Sende eine Nachricht an einem Supporter!"
+  permission: sup.command
+ cc:
+  description: "Cleare den Chat!"
+  permission: cc.cmd
+ msg:
+  description: "Schreibe jemanden!"
+  permission: msg.cmd 
+ gm:
+  description: "Gehe in einem Gamemode!"
+  permission: gm.cmd
+
+permissions:
+ 
+ restart.cmd:
+  default: op
+ admin.cmd:
+  default: op
+ discord.cmd:
+  default: true
+ onlinetime.cmd:
+  default: true
+ lobby.cmd:
+  default: true
+ wartung.cmd:
+  default: op
+ op.cmd:
+  default: op
+ witze.cmd:
+  default: true
+ bewerben.cmd:
+  default: true
+ youtube.cmd:
+  default: op
+ id.cmd:
+  default: true
+ pay.cmd:
+  default: true
+ rangshop.cmd:
+  default: true
+ kick.bypass:
+  default: op
+ youtube.see:
+  default: op
+ meinmoney.admin:
+  default: op
+ hilfe.cmd:
+  default: true
+ spectate.cmd:
+  default: op
+ mute.cmd:
+  default: op
+ werbung.cmd:
+  default: op
+ info.cmd:
+  default: true
+ changelog.cmd:
+  default: true
+ nachricht.cmd:
+  default: op
+ teamchat.command:
+  default: op
+ teamchat.see:
+  default: op
+ restart.cmd:
+  default: op
+ clear.cmd:
+  default: op
+ sup.command:
+  default: true
+ sup.see:
+  default: op
+ cc.cmd:
+  default: op
+ msg.cmd:
+  default: true
+ msg.see:
+  default: op
+ gm.cmd:
+  default: op 
+ fly.cmd:
+  default: op 
+ citybuild.cmd:
+  default: true
+ farmwelt.cmd:
+  default: true
+ freeze.cmd:
+  default: op 
+ kickall.cmd:
+  default: op 
+ tpall.cmd:
+  default: op 
+ troll.cmd:
+  default: op 
+ payall.cmd: 
+  default: op
+ night.cmd:
+  default: op 
+ day.cmd:
+  default: op 
+ rules.cmd:
+  default: true
+ tutorial.cmd:
+  default: true 
+ version.cmd:
+  default: true
+ plugins.cmd:
+  default: op 
+ nether.cmd:
+  default: true
+ size.cmd:
+  default: op 
+ repair.cmd:
+  default: op 
+ season.cmd:
+  default: true
+ 
